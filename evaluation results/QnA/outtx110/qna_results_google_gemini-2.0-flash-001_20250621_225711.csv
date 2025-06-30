@@ -1,0 +1,61 @@
+question,expected_answer,model_answer,correction_result,evaluation_explanation,response_time,context_used,enhanced_retrieval,ai_evaluation,timestamp
+What is the model name of the environmental sensor?,OUTTX-110,"OUTTX-110
+",correct,The model answer matches the expected answer exactly.,5.641,True,True,True,2025-06-21T23:00:36.612359
+What types of environmental parameters does the OUTTX-110 sensor measure?,"Temperature, Humidity, Atmospheric Pressure","The OUTTX-110 sensor measures Temperature, Humidity, and Atmospheric Pressure.
+",correct,"The model answer contains the key information from the expected answer, listing the same environmental parameters measured by the OUTTX-110 sensor.",5.229,True,True,True,2025-06-21T23:00:36.612359
+What is the manufacturer of the OUTTX-110 sensor?,"Distributed System Lab, Okayama University","Distributed System Lab, Okayama University
+",correct,"The model answer matches the expected answer exactly, containing the key information about the manufacturer of the OUTTX-110 sensor.",5.369,True,True,True,2025-06-21T23:00:36.612359
+What is the temperature range of the OUTTX-110 sensor?, -40 to +80°C,"-40 to +80°C
+",correct,The model answer matches the expected answer exactly in terms of temperature range and units.,6.086,True,True,True,2025-06-21T23:00:36.612359
+What is the humidity range of the OUTTX-110 sensor?,0 to 100% RH,"0 to 100% RH
+",correct,"The model answer matches the expected answer exactly, providing the correct humidity range of 0 to 100% RH.",6.469,True,True,True,2025-06-21T23:00:36.612359
+What is the atmospheric pressure range of the OUTTX-110 sensor?,300 to 1100 hPa,"300 to 1100 hPa
+",correct,The model answer matches the expected atmospheric pressure range of 300 to 1100 hPa exactly.,6.503,True,True,True,2025-06-21T23:00:36.612359
+What are the two data output methods supported by the OUTTX-110 sensor?,UART (CSV) and HTTP POST (JSON),"UART (CSV) and HTTP POST (JSON)
+",correct,"The model answer contains the key information from the expected answer, accurately listing the two data output methods as UART (CSV) and HTTP POST (JSON).",4.914,True,True,True,2025-06-21T23:00:36.612359
+What type of connectivity does the OUTTX-110 sensor use?,"Wi-Fi (2.4 GHz, 802.11 b/g/n)","Wi-Fi (2.4 GHz, 802.11 b/g/n)
+",correct,The model answer matches the expected answer exactly in terms of connectivity type and specifications.,6.295,True,True,True,2025-06-21T23:00:36.612359
+What is the typical power supply voltage for the OUTTX-110 sensor?,3.3V,"3.  3V
+",correct,"The model answer provides the correct power supply voltage of ""3.3V,"" despite a minor formatting issue with an extra space.",5.383,True,True,True,2025-06-21T23:00:36.612359
+What is the approximate response time of the OUTTX-110 sensor?,~2 seconds,"~2 seconds
+",correct,"The model answer matches the expected answer exactly, providing the correct response time of ~2 seconds.",5.398,True,True,True,2025-06-21T23:00:36.612359
+What index does the OUTTX-110 compute to assess environmental quality?,Comfort Index,"Comfort Index
+",correct,"The model answer matches the expected answer by stating the ""Comfort Index,"" which is the key information required.",6.692,True,True,True,2025-06-21T23:00:36.612359
+Does the OUTTX-110 include a built-in web server?,Yes,"Yes, the OUTTX-110 includes a built-in web server.
+",correct,"The model answer accurately states that the OUTTX-110 includes a built-in web server, which matches the expected answer.",9.498,True,True,True,2025-06-21T23:00:36.612359
+"What is the address of the Distributed System Lab, Okayama University?","3-1-1 Tsushima-naka, Kita-ku, Okayama 700-8530, Japan","3-1-1 Tsushima-naka, Kita-ku, Okayama 700-8530, Japan
+",correct,"The model answer matches the expected answer exactly, containing all necessary details of the address.",6.544,True,True,True,2025-06-21T23:00:36.612359
+What is the product code for the OUTTX-110 sensor?,SES-OUTTX-110-2025,"OUTTX-110
+",incorrect,"The model answer does not include the full product code ""SES-OUTTX-110-2025"" as expected; it only provides ""OUTTX-110,"" which lacks the necessary prefix and suffix.",8.219,True,True,True,2025-06-21T23:00:36.612359
+When was the prototype batch of OUTTX-110 produced?,June 2025,"The provided documents do not contain information regarding when the prototype batch of OUTTX-110 was produced.
+",incorrect,"The model answer states that the documents do not contain information about the production date, while the expected answer specifies June 2025 as the production date for the prototype batch of OUTTX-110.",7.693,True,True,True,2025-06-21T23:00:36.612359
+What is the accuracy of the temperature measurement?,±0.5°C,"±0.5°C
+",correct,"The model answer matches the expected answer exactly in terms of technical specification, providing the same accuracy of ±0.5°C for the temperature measurement.",5.63,True,True,True,2025-06-21T23:00:36.612359
+What is the resolution of the humidity measurement?,0.1% RH,"0.  1% RH
+",correct,The model answer contains the correct resolution of 0.1% RH despite the minor formatting difference with an extra space.,3.568,True,True,True,2025-06-21T23:00:36.612359
+What is the accuracy of the pressure measurement?,±0.12 hPa,"±0.12 hPa
+",correct,The model answer matches the expected answer exactly in terms of both the numerical value and the unit of measurement.,3.719,True,True,True,2025-06-21T23:00:36.612359
+What is the range of the Comfort Index?,0 to 100,"The range of the Comfort Index is 0 to 100.
+",correct,"The model answer accurately provides the expected range of the Comfort Index as 0 to 100, matching the key information required.",3.665,True,True,True,2025-06-21T23:00:36.612359
+What is the formula for the Comfort Index calculation?,100−(∣temp−22∣∗2+∣humidity−50∣∗1.5+∣pressure−1013∣∗0.05),"100−(∣temp−22∣∗2+∣humidity−50∣∗1.5+∣pressure−1013∣∗0.05)
+",correct,"The model answer matches the expected formula exactly, fulfilling all technical specifications.",4.0,True,True,True,2025-06-21T23:00:36.612359
+What is the stability of the Comfort Index over a year for humidity?,<0.1% RH/year,"<0.1% RH/year
+",correct,"The model answer matches the expected answer exactly in terms of technical specification, including numbers and units.",5.801,True,True,True,2025-06-21T23:00:36.612359
+What is the nominal power supply voltage range for the sensor?,2.2V to 3.6V,"2.  2V to 3.6V (3.3V typical)
+",correct,"The model answer provides the correct range of 2.2V to 3.6V, which matches the expected answer. The additional detail of 3.3V being typical does not contradict the expected answer and is acceptable.",3.663,True,True,True,2025-06-21T23:00:36.612359
+What is the baud rate for UART data output?,115200 baud,"115200
+",correct,"The model answer provides the correct baud rate of 115200, which matches the expected technical specification.",4.834,True,True,True,2025-06-21T23:00:36.612359
+What is an example of UART CSV output?,"25.5,60.2,1013.25,85.0","25.5,60.2,1013.25,85.0
+",correct,"The model answer matches the expected answer exactly, containing the same numerical values in the correct format.",5.335,True,True,True,2025-06-21T23:00:36.612359
+What is the approximate power consumption during active measurement?,~152 mA,"~152 mA
+",correct,"The model answer matches the expected answer in terms of the key information, which is the approximate power consumption of ~152 mA.",3.448,True,True,True,2025-06-21T23:00:36.612359
+What are the overall dimensions of the OUTTX-110 on a breadboard?,~100 × 80 mm,"~100 × 80 mm
+",correct,"The model answer accurately matches the expected answer in terms of the overall dimensions, providing the same numerical values and units.",4.17,True,True,True,2025-06-21T23:00:36.612359
+What is the approximate weight of the sensor?,~50 g,"Approximately 50g (for OUTTX-110) or 25g (for OULTX125R).
+",correct,"The model answer provides the expected weight of approximately 50g for the sensor (OUTTX-110) and includes additional information about another sensor (OULTX125R), which is acceptable.",5.336,True,True,True,2025-06-21T23:00:36.612359
+"What is the recommended solution for ""No HTTP POST"" symptom?","Check SSID/password, signal strength; Access web server to set correct IP","Check SSID/password, signal strength; Access web server to set correct IP.
+",correct,"The model answer contains all the key information from the expected answer, including checking SSID/password, signal strength, and accessing the web server to set the correct IP.",5.564,True,True,True,2025-06-21T23:00:36.612359
+What kind of mounting options are provided for the OUTTX-110?,"Breadboard-based prototype, no specific mounting options provided for an enclosure","Breadboard-based prototype, no specific mounting options provided for an enclosure.
+",correct,"The model answer accurately reflects the key information from the expected answer, indicating that the OUTTX-110 is designed for breadboard-based prototypes with no specific mounting options for an enclosure.",6.808,True,True,True,2025-06-21T23:00:36.612359
+What environmental compliances are expected for the OUTTX-110?,"RoHS, CE, FCC compliance","Expected RoHS, CE, FCC compliance.
+",correct,"The model answer contains the key information from the expected answer, listing the expected RoHS, CE, and FCC compliance.",6.278,True,True,True,2025-06-21T23:00:36.612359

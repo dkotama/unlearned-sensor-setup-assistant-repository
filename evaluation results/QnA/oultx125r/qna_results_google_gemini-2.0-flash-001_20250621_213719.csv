@@ -1,0 +1,61 @@
+question,expected_answer,model_answer,correction_result,evaluation_explanation,response_time,context_used,enhanced_retrieval,ai_evaluation,timestamp
+What is the part number for this dual-light sensor system?,OULTX125R,"OULTX125R
+",correct,"The model answer contains the exact part number as the expected answer, OULTX125R, satisfying the requirement for core factual content.",6.033,True,True,True,2025-06-21T21:40:51.987065
+Which microcontroller is integrated into the OULTX125R?,ESP32 DevKitC,"The ESP32 DevKitC microcontroller is integrated into the OULTX125R.
+",correct,"The model answer contains the key information from the expected answer, specifically identifying the ""ESP32 DevKitC"" as the microcontroller integrated into the OULTX125R. The wording and structure are slightly different but do not alter the core factual content.",4.683,True,True,True,2025-06-21T21:40:51.987065
+What is the resolution of the ADC in the OULTX125R?,12-bit ADC (0-4095 values),"The OULTX125R provides a 12-bit ADC resolution.
+",correct,"The model answer accurately states the 12-bit ADC resolution, which matches the expected answer's core factual content.",5.454,True,True,True,2025-06-21T21:40:51.987065
+What is the maximum power consumption of the OULTX125R?,<500mW,"The provided documentation does not specify the maximum power consumption of the OULTX125R.
+",incorrect,"The model answer claims that the documentation does not specify the maximum power consumption, which contradicts the expected answer of ""<500mW"".",7.564,True,True,True,2025-06-21T21:40:51.987065
+Which GPIO pin provides the standardized digital output?,GPIO13,"GPIO13
+",correct,"The model answer ""GPIO13"" matches the expected answer exactly, providing the key information accurately.",4.441,True,True,True,2025-06-21T21:40:51.987065
+"What is the sampling rate of the sensor, configurable or otherwise?",1 Hz (configurable),"The sensor operates with a typical sampling rate of 1 Hz, which is also configurable.
+",correct,"The model answer contains the key information from the expected answer, specifying that the sensor's typical sampling rate is 1 Hz and is configurable, matching the expected technical specifications.",4.075,True,True,True,2025-06-21T21:40:51.987065
+What is the IP rating of the OULTX125R?,IP20 (indoor use),"IP20
+",correct,"The model answer contains the key information from the expected answer, which is the IP rating ""IP20"". The additional context about indoor use is not essential for the correctness of the core factual content.",4.824,True,True,True,2025-06-21T21:40:51.987065
+What are the dimensions of each individual sensor module?,20mm × 15mm,"Each individual sensor module within the system has dimensions of 20mm×15mm.
+",correct,The model answer contains the key information with the same dimensions and units as the expected answer. Minor differences in wording are acceptable.,4.799,True,True,True,2025-06-21T21:40:51.987065
+What is the recommended baud rate for UART Serial debugging?,115200 baud,"The recommended baud rate for UART Serial debugging is 115200.
+",correct,"The model answer contains the key information ""115200"" baud, matching the expected answer.",5.835,True,True,True,2025-06-21T21:40:51.987065
+Which certification indicates European compliance for the OULTX125R?,CE Certified,"CE Certified
+",correct,"The model answer matches the expected answer, containing the key information that the OULTX125R is ""CE Certified,"" indicating European compliance.",5.061,True,True,True,2025-06-21T21:40:51.987065
+What is one of the key applications of the OULTX125R in modern IoT deployments?,Home automation,"Home automation systems.
+",correct,"The model answer includes the expected key application of ""home automation"" and provides additional context by specifying ""systems,"" which is acceptable.",5.362,True,True,True,2025-06-21T21:40:51.987065
+How many LED indicators does the OULTX125R have for real-time status feedback?,Three,"The OULTX125R has three distinct LED indicators for real-time operational feedback.
+",correct,"The model answer accurately states that the OULTX125R has three LED indicators, matching the expected answer.",6.036,True,True,True,2025-06-21T21:40:51.987065
+What are the operating voltage options for the OULTX125R?,3.3V DC or 5V DC,"The provided documents do not explicitly state the operating voltage options for the OULTX125R itself. However, it mentions that the digital output on GPIO13 presents either 3.3VHIGH or 0VLOW signals. The analog output ranges from 0-3.3V. It also mentions the core processing unit is the ESP32 DevKitC microcontroller.
+",incorrect,"The model answer does not provide the specific operating voltage options for the OULTX125R, which are 3.3V DC or 5V DC, as stated in the expected answer. The model's response focuses on different voltage levels related to outputs and components, not the operating voltage options.",7.747,True,True,True,2025-06-21T21:40:51.987065
+What is the minimum current required for the primary power source via USB Type-C?,500mA,"500mA
+",correct,"The model answer matches the expected answer exactly, providing the correct minimum current required for the primary power source via USB Type-C as 500mA.",3.681,True,True,True,2025-06-21T21:40:51.987065
+What is the voltage of the HIGH signal on GPIO13?,3.3V,"3.3V
+",correct,The model answer provides the exact voltage of the HIGH signal on GPIO13 as specified in the expected answer.,5.581,True,True,True,2025-06-21T21:40:51.987065
+What is the expected latency of the OULTX125R?,<50ms,"The provided documentation does not specify the expected latency of the OULTX125R.
+",incorrect,"The model answer fails to provide the expected latency of the OULTX125R, which is specified as <50ms.",7.004,True,True,True,2025-06-21T21:40:51.987065
+What is the approximate weight of the complete OULTX125R assembly?,~25g,"Approximately 25 grams (25g).
+",correct,"The model answer provides the core factual content of the expected answer, accurately stating the weight as approximately 25 grams (25g), which matches the expected answer.",6.926,True,True,True,2025-06-21T21:40:51.987065
+What is the operating temperature range for the OULTX125R?,-20°C to +60°C,"-20 degree C to +60 degree C
+",correct,"The model answer contains the correct operating temperature range, with only minor differences in formatting (""degree C"" instead of ""°C""), which are acceptable.",6.577,True,True,True,2025-06-21T21:40:51.987065
+Which certification indicates compliance with US regulatory requirements?,FCC Certified,"FCC Certified.
+",correct,"The model answer contains the key information ""FCC Certified,"" which matches the expected answer and indicates compliance with US regulatory requirements.",3.059,True,True,True,2025-06-21T21:40:51.987065
+What is the name of the file typically used to check the device on Raspberry Pi for serial output issues?,/dev/ttyUSB0,"/dev/ttyUSB0
+",correct,"The model answer matches the expected answer exactly, providing the key information about the file typically used to check the device on Raspberry Pi for serial output issues.",4.507,True,True,True,2025-06-21T21:40:51.987065
+What value indicates a saturated sensor reading?,4095,"A saturated sensor reading is indicated by a value of 4095.
+",correct,"The model answer accurately provides the key information that a saturated sensor reading is indicated by the value 4095, matching the expected answer.",4.649,True,True,True,2025-06-21T21:40:51.987065
+Which GPIO pin is connected to the Red LED?,GPIO27,"GPIO27
+",correct,"The model answer matches the expected answer exactly, providing the correct GPIO pin number connected to the Red LED.",4.848,True,True,True,2025-06-21T21:40:51.987065
+What is the recommended resistance for the LED cathode connection to GND?,220Ω,"220Ω
+",correct,"The model answer ""220Ω"" matches the expected answer in terms of technical specification, including the number and unit, fulfilling the evaluation criteria.",4.696,True,True,True,2025-06-21T21:40:51.987065
+What is the voltage of the LOW signal on GPIO13?,0V,"0V
+",correct,"The model answer accurately provides the key information from the expected answer, stating the voltage of the LOW signal on GPIO13 as 0V, which matches the technical specification.",6.088,True,True,True,2025-06-21T21:40:51.987065
+What is the typical BCM connection for GPIO13 on a Raspberry Pi?,BCM 17,"BCM 17
+",correct,"The model answer accurately matches the expected answer, providing the correct BCM connection for GPIO13 on a Raspberry Pi as BCM 17.",5.391,True,True,True,2025-06-21T21:40:51.987065
+What is the threshold for light difference that triggers GPIO13 output?,100 units,"The GPIO13 digital output signal HIGH occurs when the calculated difference between ambient and directional light values exceeds 100 units.
+",correct,"The model answer conveys the key information from the expected answer, stating that the GPIO13 output is triggered when the light difference exceeds 100 units, which matches the technical specification.",5.58,True,True,True,2025-06-21T21:40:51.987065
+What should be used to secure all connections to avoid unstable readings?,Short wiring,"To secure all connections and avoid unstable readings, ensure all electrical connections, including VCC and GND, are firm and reliable.
+",incorrect,"The model answer does not mention ""short wiring,"" which is the key information from the expected answer. The focus of the expected answer is on using short wiring to secure connections, rather than the general firmness and reliability of connections.",4.078,True,True,True,2025-06-21T21:40:51.987065
+What type of interference should be avoided for stable readings?,EMI sources,"The sensor should avoid condensing humidity for stable readings.
+",incorrect,"The model answer does not mention EMI sources, which is the key information from the expected answer. Instead, it discusses condensing humidity, which is unrelated to the question.",5.536,True,True,True,2025-06-21T21:40:51.987065
+Which certification relates to environmental protection?,RoHS Compliant,"RoHS Compliant
+",correct,"The model answer ""RoHS Compliant"" matches the expected answer and contains the key information regarding the certification related to environmental protection.",3.542,True,True,True,2025-06-21T21:40:51.987065
+What are the approximate dimensions of the OULTX125R assembly?,~50mm × 25mm,"The integrated ESP32 DevKitC board measures approximately 50mm×25mm, and each individual sensor module within the system has dimensions of 20mm×15mm.
+",incorrect,"The model answer incorrectly attributes the dimensions to the ESP32 DevKitC board and sensor modules, rather than the OULTX125R assembly. It does not directly provide the approximate dimensions of the OULTX125R assembly as expected.",8.003,True,True,True,2025-06-21T21:40:51.987065

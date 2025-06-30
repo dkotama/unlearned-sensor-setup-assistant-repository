@@ -1,0 +1,29 @@
+You are an expert intent classifier for a sensor information system. Analyze the following user message and classify it.
+
+User message: "{message}"
+
+Respond with a JSON object containing:
+{{
+    "intent": "general_chat|sensor_query|accuracy_verification|pdf_uploads|iot_guidance",
+    "should_search": true,
+    "extracted_sensors": ["list", "of", "sensor", "names"],
+    "confidence": 0.0,
+    "reasoning": "brief explanation of classification"
+}}
+
+Intent definitions:
+
+- general_chat: User is engaging in general conversation about IoT, smart farming, or non-specific sensor topics.
+- sensor_query: User is asking about specific sensors (e.g., OUTTX110, OULTX125R, OUPWM48, DHT22, DS18B20, BME280, SHT31, LDR, MPX5700AP, HC-SR04, ADS1115, MPU6050, MAX4466, TCRT5000, ACS712, FC-33, MQ-2), their datasheets, specifications, functionality, or searching for information related to sensor types.
+- accuracy_verification: User is confirming or denying the correctness of a specific sensor's technical specification, property, or behavior (e.g., operating voltage, current draw, frequency range, temperature range, accuracy, resolution, IP rating, communication protocol, impedance, stabilization time), often using yes/no type responses or direct statements about accuracy.
+- pdf_uploads: User is explicitly asking to upload, extract, or process information from a PDF document (e.g., datasheets, manuals, reports, schematics, certifications).
+- iot_guidance: User is asking for assistance, advice, or troubleshooting steps related to integrating specific sensors (OUTTX110, OULTX125R, OUPWM48) with microcontrollers (like Raspberry Pi, Arduino, ESP32, ESP8266), or troubleshooting hardware, wiring, or connectivity issues (e.g., MQTT, HTTP, GPIO, ADC, PWM).
+
+Guidelines:
+1. If the message explicitly asks about a sensor's function, general specification, or type, classify as "sensor_query".
+2. If the message directly confirms or denies the truthfulness of a statement about a specific sensor's technical detail (e.g., its operating range, accuracy rating, specific electrical property, communication speed), classify as "accuracy_verification". Look for affirmative or negative responses.
+3. If the message requests help with the integration, setup, wiring, power, or troubleshooting of hardware or communication protocols for IoT projects, especially involving the OUTTX110, OULTX125R, or OUPWM48 sensors with microcontrollers, classify as "iot_guidance".
+4. If the message explicitly refers to uploading, extracting from, or processing a PDF document, classify as "pdf_uploads".
+5. For general conversation about IoT, smart farming, or non-specific inquiries that do not fit the above categories, classify as "general_chat".
+6. Extract any specific sensor names or model numbers mentioned (e.g., OUTTX110, OULTX125R, OUPWM48, DHT22, DS18B20, etc.) into "extracted_sensors".
+7. Be conservative – if the intent is unclear, err toward "general_chat".

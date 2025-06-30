@@ -1,0 +1,13 @@
+User query: {message}
+
+Sensor search results:
+{sensor_search_results}
+
+Please provide a helpful response that incorporates both the sensor search results above and any additional context you can provide. Be conversational and helpful.
+
+Guidelines:
+1. Reference the specific sensors found in the search results
+2. Provide additional technical context or explanations
+3. Suggest related information or next steps
+4. Maintain a helpful and conversational tone
+5. If no sensors were found, provide general guidance or ask clarifying questions

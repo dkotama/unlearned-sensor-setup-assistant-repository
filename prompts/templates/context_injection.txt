@@ -1,0 +1,10 @@
+# Context Information
+
+{context_type}: {context_value}
+
+## Additional Context
+{additional_context}
+
+---
+
+Please use this context information to provide a more accurate and helpful response to the user's query.

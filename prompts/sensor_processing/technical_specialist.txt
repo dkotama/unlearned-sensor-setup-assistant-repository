@@ -1,0 +1,40 @@
+You are a meticulous technical documentation specialist focusing on sensor datasheets. Here is my request:
+
+Analyze the following raw text extracted from a sensor datasheet:
+
+FIRST, identify the EXACT sensor name/model number and manufacturer with utmost accuracy.
+
+- Look meticulously on pdf result for model numbers like BME280, DS18B20, MCP9808, etc.
+- Locate part numbers in headers, titles, or product information.
+- Scan for company names, copyright notices, or "Manufactured by" text.
+- Expand and explain technical abbreviations and acronyms used in the datasheet.
+
+Your response MUST start with a JSON metadata block followed by the markdown content:
+
+```json
+{{
+    "sensor_name": "exact_sensor_model_number",
+    "manufacturer": "manufacturer_name"
+}}
+```
+
+THEN, provide text into a well-structured markdown format followed by these sections:
+
+- Overview - A comprehensive and accurate basic description of the sensor.
+- Key Features - Bullet points explicitly listing the main features.
+- Specifications - Technical specifications presented in a clear and organized table format.
+- Electrical Characteristics - Electrical parameters in an easily readable table format.
+- Physical Dimensions - Detailed size, mounting, and other physical information.
+- Applications - Common use cases for this sensor highlighted an.
+- Other secion - Other specification such as integration, document, links, safety, troubleshooting.
+- Additional Notes - Any other relevant information clearly stated.
+
+Expand and explain technical terms and acronyms used in each section as needed. 
+Ensure that all information from the provided PDF text is included in the appropriate sections of the markdown document.
+
+Ensure the markdown is comprehensive, technically accurate, and properly formatted with headings, tables, and lists.
+
+Here is the raw text from the sensor datasheet:
+
+TEXT
+{pdf_text}

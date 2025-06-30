@@ -1,0 +1,81 @@
+question,expected_answer,model_answer,correction_result,evaluation_explanation,response_time,context_used,enhanced_retrieval,ai_evaluation,timestamp
+What is the sensor type for OU-PWM48?,Smart PID Control Sensor,The sensor type for OU-PWM48 is a Smart PID Control Sensor.,correct,"The model answer accurately includes the key information from the expected answer, identifying the sensor type for OU-PWM48 as a Smart PID Control Sensor.",6.979,True,True,True,2025-06-22T00:11:19.750991
+What is the primary application of the OU-PWM48 Smart Sensor?,"Water heater systems, smart home, and industrial heating applications","The primary application of the OU-PWM48 Smart Sensor is for water heater systems, including smart home and industrial heating applications.",correct,"The model answer includes the key applications mentioned in the expected answer: water heater systems, smart home, and industrial heating applications. The additional context provided by the model does not alter the core factual content.",7.9,True,True,True,2025-06-22T00:11:19.750991
+What is the output type of the OU-PWM48 sensor?,PWM Duty Cycle (0-100%),The output type of the OU-PWM48 sensor is a PWM Duty Cycle (0-100%) for heating element control.,correct,"The model answer contains the key information from the expected answer, specifying the output type as a PWM Duty Cycle (0-100%), and the additional context about heating element control is acceptable and does not alter the core factual content.",8.252,True,True,True,2025-06-22T00:11:19.750991
+What communication protocol does the OU-PWM48 sensor use?,MQTT,The OU-PWM48 sensor uses the MQTT communication protocol.,correct,"The model answer contains the key information from the expected answer, stating that the OU-PWM48 sensor uses the MQTT communication protocol, which matches the expected answer.",6.1,True,True,True,2025-06-22T00:11:19.750991
+What are the power supply options for the OU-PWM48 sensor?,5V DC (USB) or 3.3V-5V DC (external),"The OU-PWM48 sensor has the following power supply options:
+
+- 5V DC (USB)
+- 3.3V-5V DC (external)",correct,"The model answer accurately reflects the expected answer, providing both power supply options (5V DC via USB and 3.3V-5V DC externally) with the correct specifications.",9.036,True,True,True,2025-06-22T00:11:19.750991
+What is the temperature accuracy for water temperature on OU-PWM48?,±0.5°C,The temperature accuracy for water temperature on the OU-PWM48 sensor is ±0.5°C.,correct,"The model answer includes the key information from the expected answer, specifically the temperature accuracy for water temperature on the OU-PWM48 sensor as ±0.5°C, and matches the technical specification exactly.",8.4,True,True,True,2025-06-22T00:11:19.750991
+What are the dimensions of the OU-PWM48 compact module?,50mm×35mm×15mm,The dimensions of the OU-PWM48 compact module are 50mm × 35mm × 15mm.,correct,The model answer matches the expected answer exactly in terms of dimensions and units.,6.876,True,True,True,2025-06-22T00:11:19.750991
+What is the approximate weight of the OU-PWM48 sensor?,Approx. 25g,The approximate weight of the OU-PWM48 sensor is 25 grams.,correct,"The model answer provides the core factual content of the expected answer, stating the weight as 25 grams, which matches the approximate weight of 25g.",6.039,True,True,True,2025-06-22T00:11:19.750991
+What is the IP Rating of the OU-PWM48 sensor probe?,IP65,The IP Rating of the OU-PWM48 sensor probe is IP65.,correct,"The model answer accurately states the IP Rating of the OU-PWM48 sensor probe as IP65, which matches the expected answer.",7.186,True,True,True,2025-06-22T00:11:19.750991
+What certifications does the OU-PWM48 Smart Sensor have?,"CE, RoHS","The OU-PWM48 Smart Sensor has the following certifications:
+
+- CE
+- RoHS",correct,"The model answer contains the key information from the expected answer, specifically listing the CE and RoHS certifications, which satisfies the evaluation criteria.",7.489,True,True,True,2025-06-22T00:11:19.750991
+What is the main function of the OU-PWM48 Smart Sensor as a standalone controller?,Internally calculating control actions and delivering real-time Pulse Width Modulation (PWM) output directly to the water heater's heating element,"The main function of the OU-PWM48 Smart Sensor as a standalone controller is to monitor and perform Proportional-Integral-Derivative (PID) control of water heater systems. It calculates control actions internally and delivers real-time Pulse Width Modulation (PWM) output directly to the water heater's heating element, enabling efficient and reliable water temperature regulation.",correct,"The model answer contains the key information from the expected answer by stating that the sensor calculates control actions internally and delivers real-time PWM output to the heating element. Additionally, it provides extra context about monitoring and PID control, which does not detract from the correctness of the main function.",7.761,True,True,True,2025-06-22T00:11:19.750991
+What type of control does the OU-PWM48 Smart Sensor provide?,PID controller for autonomous temperature regulation,"The OU-PWM48 Smart Sensor provides Proportional-Integral-Derivative (PID) control. It functions as a standalone PID controller, calculating control actions internally and delivering real-time Pulse Width Modulation (PWM) output directly to the water heater's heating element for efficient temperature regulation.",correct,"The model answer accurately describes the PID control provided by the OU-PWM48 Smart Sensor and includes additional detail about its standalone functionality and PWM output for temperature regulation, aligning with the expected answer.",37.22,True,True,True,2025-06-22T00:11:19.750991
+What is the company name that developed the OU-PWM48 sensor?,Okayama University (developed in collaboration with),The OU-PWM48 sensor was developed in collaboration with **Okayama University**.,correct,"The model answer contains the key information from the expected answer, indicating that the OU-PWM48 sensor was developed in collaboration with Okayama University.",7.199,True,True,True,2025-06-22T00:11:19.750991
+"What is the email address for OU-PWM48 pricing, availability, support, and warranty inquiries?",darma.kotama@s.okayama-u.ac.jp,"The email address for OU-PWM48 pricing, availability, support, and warranty inquiries is darma.kotama@s.okayama-u.ac.jp.",correct,"The model answer contains the key information from the expected answer, providing the correct email address for inquiries.",8.453,True,True,True,2025-06-22T00:11:19.750991
+What is the default sampling rate of the OU-PWM48 sensor?,1 Hz (1 sample/second),The default sampling rate of the OU-PWM48 sensor is 1 Hz (1 sample per second).,correct,"The model answer accurately states the default sampling rate as 1 Hz (1 sample per second), which matches the expected answer in both content and technical specification.",7.441,True,True,True,2025-06-22T00:11:19.750991
+What is the latency for real-time data output after sampling on OU-PWM48?,<10 ms delay,The latency for real-time data output after sampling on the OU-PWM48 is less than 10 milliseconds.,correct,"The model answer accurately conveys the key information from the expected answer, stating that the latency is less than 10 milliseconds, which matches the expected <10 ms delay.",7.116,True,True,True,2025-06-22T00:11:19.750991
+How quickly are temperature sampling and MQTT data transmission completed at 1 Hz on OU-PWM48?,Within 1 second,Temperature sampling and MQTT data transmission are completed within 1 second at a sampling rate of 1 Hz on the OU-PWM48.,correct,"The model answer contains the key information from the expected answer, stating that temperature sampling and MQTT data transmission are completed within 1 second at a sampling rate of 1 Hz on the OU-PWM48.",7.385,True,True,True,2025-06-22T00:11:19.750991
+What is the ambient compensation accuracy for OU-PWM48?,Within ±2°C,The ambient compensation accuracy for the OU-PWM48 is within ±2°C. This is achieved using an integrated ambient temperature sensor and a proprietary algorithm.,correct,"The model answer contains the key information from the expected answer, stating that the ambient compensation accuracy for the OU-PWM48 is within ±2°C. The additional context about the integrated sensor and algorithm does not contradict the core factual content.",6.898,True,True,True,2025-06-22T00:11:19.750991
+What is the temperature control accuracy aimed for by the OU-PWM48 integrated PID controller?,Within ±1.0°C,The OU-PWM48 integrated PID controller aims to maintain the water temperature within ±1.0°C of the target temperature under stable load conditions.,correct,"The model answer includes the key information from the expected answer, stating that the temperature control accuracy is within ±1.0°C, which matches the technical specification required. The additional context about maintaining water temperature under stable load conditions is acceptable and does not contradict the expected answer.",8.726,True,True,True,2025-06-22T00:11:19.750991
+Is information explicitly stated for precision in the OU-PWM48 datasheet?,No information explicitly stated for precision,"No, precision is not explicitly stated for the OU-PWM48 sensor in the provided datasheet.",correct,"The model answer contains the key information from the expected answer, stating that precision is not explicitly mentioned in the OU-PWM48 datasheet.",7.166,True,True,True,2025-06-22T00:11:19.750991
+What is the format of the data output via MQTT for OU-PWM48?,JSON payload,"The data output format for the OU-PWM48 sensor via MQTT is a JSON payload. There are two types of publications:
+
+1. **Data Publication** (Topic: `ou/pwm48/<device_id>/data`):
+    ```json
+    {
+        ""current_temp"": <float_value>,
+        ""target_temp"": <float_value>,
+        ""error"": <float_value>,
+        ""pwm_duty_cycle"": <float_value>,
+        ""ambient_comp"": <float_value>
+    }
+    ```
+    Example:
+    ```json
+    {
+        ""current_temp"": 54.75,
+        ""target_temp"": 55.0,
+        ""error"": 0.25,
+        ""pwm_duty_cycle"": 75.0,
+        ""ambient_comp"": 22.5
+    }
+    ```
+
+2. **Status Publication** (Topic: `ou/pwm48/<device_id>/status`):
+    ```json
+    {
+        ""status"": ""<status_value>"",
+        ""uptime_s"": <integer_value>,
+        ""current_pwm_freq_hz"": <float_value>
+    }
+    ```
+    Example:
+    ```json
+    {
+        ""status"": ""online"",
+        ""uptime_s"": 3600,
+        ""current_pwm_freq_hz"": 1000
+    }
+    ```",correct,"The model answer provides additional details about the JSON payload format used for MQTT data output, which aligns with the expected answer indicating that the format is a JSON payload.",9.957,True,True,True,2025-06-22T00:11:19.750991
+What is a commonly used free public MQTT broker host for testing OU-PWM48?,broker.hivemq.com,A commonly used free public MQTT broker host for testing the OU-PWM48 is **broker.hivemq.com**.,correct,"The model answer contains the key information ""broker.hivemq.com"" from the expected answer, which is the core factual content required. Minor differences in wording and additional context are acceptable.",8.998,True,True,True,2025-06-22T00:11:19.750991
+What is the unencrypted port for the public MQTT broker used with OU-PWM48?,1883,The unencrypted port for the public MQTT broker used with OU-PWM48 is 1883.,correct,"The model answer accurately provides the unencrypted port number 1883 for the public MQTT broker used with OU-PWM48, matching the expected answer.",9.515,True,True,True,2025-06-22T00:11:19.750991
+What is the TLS/SSL port for the public MQTT broker used with OU-PWM48?,8883,The TLS/SSL port for the public MQTT broker used with OU-PWM48 is **8883**.,correct,"The model answer accurately states that the TLS/SSL port for the public MQTT broker used with OU-PWM48 is 8883, which matches the expected answer.",13.459,True,True,True,2025-06-22T00:11:19.750991
+Provide an example of a data publication topic for the OU-PWM48 sensor.,ou/pwm48/<device_id>/data,"An example of a data publication topic for the OU-PWM48 sensor is:
+
+`ou/pwm48/<device_id>/data`
+
+Replace `<device_id>` with the specific identifier for the device. For example, if the device ID is `sensor123`, the topic would be:
+
+`ou/pwm48/sensor123/data`",correct,"The model answer contains the key information from the expected answer, with additional context on how to replace `<device_id>` with a specific identifier, which is acceptable.",11.539,True,True,True,2025-06-22T00:11:19.750991
+What is the operating temperature range of the OU-PWM48 sensor?,0°C to +60°C,The operating temperature range of the OU-PWM48 sensor is 0°C to +60°C.,correct,"The model answer provides the expected operating temperature range of 0°C to +60°C, matching the technical specifications exactly.",8.741,True,True,True,2025-06-22T00:11:19.750991
+What is the storage temperature range of the OU-PWM48 sensor?,−40°C to +85°C,The storage temperature range of the OU-PWM48 sensor is −40°C to +85°C.,correct,"The model answer provides the exact storage temperature range as the expected answer, with no discrepancies in numbers, units, or codes.",11.088,True,True,True,2025-06-22T00:11:19.750991
+What is the environmental rating for the OU-PWM48 sensor probe?,IP65 (water-resistant enclosure for sensor probe),"The environmental rating for the OU-PWM48 sensor probe is IP65, which indicates a water-resistant enclosure.",correct,"The model answer provides the key information that the environmental rating for the OU-PWM48 sensor probe is IP65, which matches the expected answer.",9.556,True,True,True,2025-06-22T00:11:19.750991
+Is information on vibration resistance provided for OU-PWM48?,No information,"No, the provided information does not include details on vibration resistance for the OU-PWM48 sensor.",correct,"The model answer correctly states that no information on vibration resistance is provided for the OU-PWM48, aligning with the expected answer of ""No information.""",7.393,True,True,True,2025-06-22T00:11:19.750991
+What standards or certifications does the OU-PWM48 sensor comply with?,"CE, RoHS compliant",The OU-PWM48 sensor complies with CE and RoHS standards.,correct,"The model answer includes the key information from the expected answer, stating that the OU-PWM48 sensor complies with CE and RoHS standards.",7.232,True,True,True,2025-06-22T00:11:19.750991

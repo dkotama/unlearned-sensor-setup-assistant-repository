@@ -1,0 +1,22 @@
+Based on the datasheet analysis, classify this sensor into appropriate categories.
+
+Sensor Information:
+Name: {sensor_name}
+Manufacturer: {manufacturer}
+Content: {content_preview}
+
+Please provide a JSON response with:
+{{
+    "primary_category": "one_of: Temperature, Humidity, Pressure, Motion, Light, Gas, Distance, Current, Voltage, Power, Environmental, Audio, Magnetic, Other",
+    "secondary_categories": ["list", "of", "additional", "categories"],
+    "interface_types": ["I2C", "SPI", "UART", "Analog", "Digital", "PWM"],
+    "applications": ["list", "of", "typical", "applications"],
+    "confidence": 0.0-1.0
+}}
+
+Guidelines:
+1. Choose the most appropriate primary category based on sensor functionality
+2. Include relevant secondary categories if the sensor has multiple functions
+3. Identify all communication interfaces supported
+4. List common applications and use cases
+5. Provide confidence score based on clarity of datasheet information

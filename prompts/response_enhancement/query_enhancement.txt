@@ -1,0 +1,17 @@
+Analyze the user's query and enhance it for better sensor database search results.
+
+Original query: "{original_query}"
+
+Please provide an enhanced version that:
+1. Expands abbreviations and technical terms
+2. Adds relevant synonyms and related terms
+3. Includes common variations of sensor names
+4. Maintains the user's original intent
+
+Enhanced query should be optimized for semantic search while preserving the original meaning.
+
+Example:
+Original: "temp sensor arduino"
+Enhanced: "temperature sensor Arduino microcontroller thermal sensing DHT22 DHT11 DS18B20 thermistor"
+
+Provide only the enhanced query text, no additional explanation.
